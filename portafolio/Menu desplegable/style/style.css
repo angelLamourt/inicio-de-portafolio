@@ -14,6 +14,7 @@ body{
     height: auto;
 }
 
+/*menu lateral*/
 nav{
     display: flex;
     justify-content: space-between;
@@ -34,4 +35,48 @@ a{
     color: white;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 25px;
+}
+
+ul li:hover{
+    background-color: #06D960;
+    border-radius: 3rem;
+}
+
+/*todo el body*/
+
+.image-container{
+    display: flex;
+    text-align: center;
+    height: 80vh;
+}
+
+.miFoto{
+    border-radius: 3rem;
+    width: 40rem;
+    height: 40rem;
+}
+
+.parafo_foto{
+    text-align: justify;
+    color: white;
+    margin: 1rem 1rem 1rem 1rem;
+    font-size: 25px;
+}
+
+/*footer*/
+.redes_sociales{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes_contenido{
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+}
+
+.redes_contenido :hover{
+    background-color: #06D960;
+    border-radius: 3rem;
 }
