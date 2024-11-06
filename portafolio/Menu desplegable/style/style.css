@@ -80,3 +80,10 @@ ul li:hover{
     background-color: #06D960;
     border-radius: 3rem;
 }
+
+/*h1 mis proyectos*/
+
+.titulo_miproyectos{
+    text-align: center;
+    color: white;
+}
